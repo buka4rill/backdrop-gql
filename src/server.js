@@ -66,7 +66,6 @@ app.use("/graphiql", graphqlHTTP({
   graphiql: true
 }));
 
-app.use(express.static('public'))
 
 
 // Start the server
